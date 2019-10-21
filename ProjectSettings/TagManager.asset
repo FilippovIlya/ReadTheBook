@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Joystick
+  - FxTemporaire
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Joystick
+  - Character
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: JoystickBack
+    uniqueID: 3625051781
+    locked: 0
+  - name: Joystick
+    uniqueID: 1561784927
+    locked: 0
+  - name: Decoration
+    uniqueID: 355786307
+    locked: 0
+  - name: Item
+    uniqueID: 1024796167
+    locked: 0
+  - name: CollidersTile
+    uniqueID: 2042996391
+    locked: 0
+  - name: Traps
+    uniqueID: 4272221921
+    locked: 0
+  - name: Characters
+    uniqueID: 292005011
+    locked: 0
+  - name: Bullets
+    uniqueID: 959751527
+    locked: 0
