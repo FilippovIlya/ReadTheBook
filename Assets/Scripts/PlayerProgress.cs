@@ -22,7 +22,7 @@ public class PlayerProgress : MonoBehaviour
     //здоровье от экипировки
     [HideInInspector] public float maxLifeFromEQ;
     //текущее здоровье
-    [HideInInspector] public float curLife;
+     public float curLife;
     //текущий уровень
     [HideInInspector] public float level = 1;
     //опыт необходимый для получения следующего уровня
