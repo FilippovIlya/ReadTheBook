@@ -11,6 +11,7 @@ public class EnemySpawner : MonoBehaviour
     public float spawnTime;
     private int enemiesAmount;
     private bool onlyone;
+    public int enemiesCount;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -27,6 +28,6 @@ public class EnemySpawner : MonoBehaviour
         Instantiate(enemies[Random.Range(0, enemies.Length)], transform.position, Quaternion.identity);
         enemiesAmount++;
         yield return new WaitForSeconds(spawnTime);
-        if(enemiesAmount<=5)StartCoroutine(CreateEnemy());
+        if(enemiesAmount<= enemiesCount) StartCoroutine(CreateEnemy());
     }
 }

@@ -201,4 +201,8 @@ public class PlayerProgress : MonoBehaviour
         StartCoroutine(LifeRegen());
         if (curLife <= maxLife) { curLife += lifeRegen; }
     }
+    public void GetDamage(float damage)
+    {
+        curLife -= damage;
+    }
 }

@@ -9,7 +9,7 @@ public class FirePillarChild : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<PlayerProgress>().curLife -= 150;
+            collision.gameObject.GetComponent<PlayerProgress>().GetDamage(50);
         }
     }
 

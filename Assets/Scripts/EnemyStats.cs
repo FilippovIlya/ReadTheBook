@@ -43,12 +43,12 @@ public class EnemyStats : MonoBehaviour
             Destroy(gameObject);
         }
         //двигаем если игрок дальше чем 5 метров
-        if (player != null && Vector3.Distance(player.transform.position, rb.position) >= 2)
+        if (player != null && Vector3.Distance(player.transform.position, rb.position) >= 3)
         {
             rb.position = Vector3.Lerp(transform.position, player.transform.position, 1 / (duration * (Vector3.Distance(transform.position, player.transform.position))));
         }
         //если игрок ближе 5 метров атакуем
-        else if (player != null && Vector3.Distance(player.transform.position, rb.position) < 2)
+        else if (player != null && Vector3.Distance(player.transform.position, rb.position) < 3)
         {
             Attack();
         }

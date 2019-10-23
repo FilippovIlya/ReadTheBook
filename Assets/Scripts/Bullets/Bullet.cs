@@ -12,29 +12,33 @@ public class Bullet : MonoBehaviour
     //скорость полета
     public float duration;
     //бьем только по одной цели
-    private bool onlyoneTarget;
     
-    private void OnTriggerEnter2D(Collider2D collision)
+    
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy")&&!onlyoneTarget)
+        if (collision.CompareTag("Enemy"))
         {
             collision.GetComponent<EnemyStats>().health -= (attack / ((100 + collision.GetComponent<EnemyStats>().armor) / 100));
             GetComponent<PoolObject>().Return();
-            onlyoneTarget = true;
+            
         }
     }
-    private void Start()
+    private void OnEnable()
     {
         enemy = GameObject.FindGameObjectWithTag("Enemy");
-        
     }
+    
     private void Update()
     {
         if (enemy != null)
         {
             transform.position = Vector3.Lerp(transform.position, enemy.transform.position, 1 / (duration * (Vector3.Distance(transform.position, enemy.transform.position))));
           
-        } else { GetComponent<PoolObject>().Return(); }
+        } else {
+            
+            GetComponent<PoolObject>().Return();
+            
+        }
     }
     
 }
