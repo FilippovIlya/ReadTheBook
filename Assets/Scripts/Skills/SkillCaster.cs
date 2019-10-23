@@ -111,7 +111,7 @@ public class SkillCaster : MonoBehaviour
                     animator.SetBool("isRunning", false);
                     animator.SetBool("isIdle", false);
                     PoolObject skillOneFire = PoolManager.Get(9);
-                    skillOneFire.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.6f);
+                    skillOneFire.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + 0.6f);
                     pp.curMana -= mana1FW;
                 }
             }
