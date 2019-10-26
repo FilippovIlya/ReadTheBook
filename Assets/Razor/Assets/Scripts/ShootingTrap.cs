@@ -16,10 +16,11 @@ public class ShootingTrap : MonoBehaviour
     private float destroyItemDelay = 3f;
 
     // Use this for initialization
-    void Start ()
+    private void OnEnable()
     {
         StartCoroutine(ShootObject(shootInterval));
     }
+    
 
     private IEnumerator ShootObject(float delay)
     {

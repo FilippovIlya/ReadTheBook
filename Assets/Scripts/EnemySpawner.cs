@@ -12,15 +12,16 @@ public class EnemySpawner : MonoBehaviour
     private int enemiesAmount;
     private bool onlyone;
     public int enemiesCount;
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player")&&!onlyone)
+        if (collision.CompareTag("Player"))
         {
             StartCoroutine(CreateEnemy());
             onlyone = true;
         }
     }
+    
+    
     
     //непосредственно спавн
     IEnumerator CreateEnemy()

@@ -5,11 +5,12 @@ using UnityEngine;
 public class FirePillar : MonoBehaviour
 {
     public GameObject child;
-    void Start()
+    private void OnEnable()
     {
         StartCoroutine(ActivateDeactivate());
     }
-
+   
+    
     IEnumerator ActivateDeactivate()
     {
         child.SetActive(false);

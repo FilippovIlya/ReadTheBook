@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1713883836312754335}
   - component: {fileID: 1713883836312754334}
-  - component: {fileID: 2096160726}
+  - component: {fileID: 5803720469921789771}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Untagged
@@ -50,7 +50,8 @@ MonoBehaviour:
   - {fileID: 2825182022093359027, guid: 5e9f94eca08f09f468ff104307ace995, type: 3}
   - {fileID: 5513888057604861566, guid: 044cb74d37c0b80478d5bc9371ff3fa8, type: 3}
   spawnTime: 5
---- !u!58 &2096160726
+  enemiesCount: 0
+--- !u!58 &5803720469921789771
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65,4 +66,4 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 8.19
+  m_Radius: 2
