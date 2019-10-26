@@ -12,6 +12,7 @@ public class EnemySpawner : MonoBehaviour
     private int enemiesAmount;
     private bool onlyone;
     public int enemiesCount;
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -19,6 +20,7 @@ public class EnemySpawner : MonoBehaviour
             StartCoroutine(CreateEnemy());
             onlyone = true;
         }
+        
     }
     
     
