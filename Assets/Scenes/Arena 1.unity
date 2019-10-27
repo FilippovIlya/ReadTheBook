@@ -9669,8 +9669,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -70, y: 71}
-  m_SizeDelta: {x: 115, y: 115}
+  m_AnchoredPosition: {x: -75, y: 75}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &958731670
 MonoBehaviour:
@@ -11828,7 +11828,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1697, y: -207}
+  m_AnchoredPosition: {x: 1538, y: -459}
   m_SizeDelta: {x: 127, y: 104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1132767527
@@ -12721,8 +12721,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -218.2, y: 206}
-  m_SizeDelta: {x: 125, y: 125}
+  m_AnchoredPosition: {x: -225, y: 225}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1252094783
 MonoBehaviour:
@@ -12800,7 +12800,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 76afa1088593181409484804262379a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e25e332ed75cd034583f16e80bfeeeda, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -130396,8 +130396,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -70, y: 206}
-  m_SizeDelta: {x: 125, y: 125}
+  m_AnchoredPosition: {x: -75, y: 225}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1822810419
 MonoBehaviour:
@@ -132089,8 +132089,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -70, y: 342}
-  m_SizeDelta: {x: 125, y: 125}
+  m_AnchoredPosition: {x: -375, y: 225}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2019977555
 MonoBehaviour:
@@ -132168,7 +132168,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e025e58bef4967244b9dac1ecc99c268, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 581b3bc44b7016a44b234258a04a33cf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -133489,14 +133489,14 @@ MonoBehaviour:
   - {fileID: 9100000, guid: 977e91d3fbaec4841a456fcfce7fa2a9, type: 2}
   skills:
   - {fileID: 21300000, guid: 33010aea445f7384d82da0f6d3d20d08, type: 3}
-  - {fileID: 21300000, guid: 76afa1088593181409484804262379a2, type: 3}
-  - {fileID: 21300000, guid: e025e58bef4967244b9dac1ecc99c268, type: 3}
-  - {fileID: 21300000, guid: 10e8e9ea3d08287478a505246ad4dbdc, type: 3}
-  - {fileID: 21300000, guid: fcd711b504a9a8f4ebe6731b05286b0f, type: 3}
-  - {fileID: 21300000, guid: 1ca64009c420f604fa35039d6ba50afe, type: 3}
-  - {fileID: 21300000, guid: 6a927c72caa0f9f4cb577d1fe87aca45, type: 3}
-  - {fileID: 21300000, guid: 36b497d9e179cb44289a41a04679bc5b, type: 3}
-  - {fileID: 21300000, guid: 7945a03910d81c843be7cb147f406f73, type: 3}
+  - {fileID: 21300000, guid: e25e332ed75cd034583f16e80bfeeeda, type: 3}
+  - {fileID: 21300000, guid: 581b3bc44b7016a44b234258a04a33cf, type: 3}
+  - {fileID: 21300000, guid: a2a4746503a6e924f9f9542080183c11, type: 3}
+  - {fileID: 21300000, guid: 4535b0b2295694d469ef35442725cb06, type: 3}
+  - {fileID: 21300000, guid: 00ec1f38787f7ed47b9fd426bb57deb3, type: 3}
+  - {fileID: 21300000, guid: 9bee1bd71c0652a42a7d5104e9ea1d9a, type: 3}
+  - {fileID: 21300000, guid: 4b334783e9f08744490ce9bcfdd11392, type: 3}
+  - {fileID: 21300000, guid: 7592773bcf3479e4d9c4366d9e2401b6, type: 3}
   txt: {fileID: 1097701341}
   maxLife: 1000
   maxLifeFromEQ: 0
@@ -133549,7 +133549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftJoystick: {fileID: 1544425218}
   rotationTarget: {fileID: 659463052}
-  moveSpeed: 3.8
+  moveSpeed: 5
   rotationSpeed: 8
   animator: {fileID: 0}
   lightFlick: {fileID: 85684766}
