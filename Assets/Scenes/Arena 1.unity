@@ -2840,6 +2840,11 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 108410528342294142, guid: fc0ca6b94b00180489b44678bc3ee191,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 4.15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc0ca6b94b00180489b44678bc3ee191, type: 3}
 --- !u!1001 &214970115
@@ -132389,7 +132394,7 @@ Light:
   serializedVersion: 9
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.03
+  m_Intensity: 0.56
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
